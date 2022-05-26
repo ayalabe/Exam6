@@ -32,6 +32,7 @@ public class Runner {
 		commands.add(new Command("barvazon", Operation.SELL));
 		commands.add(new Command("barvazon", Operation.SELL));
 		commands.add(new Command("barvazon", Operation.BUY));
+//		commands.add(new Command("baravazon", Operation.BUY)); //throw exaption
 		
 		ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
 		List<Future<Double>> futures = new ArrayList<Future<Double>>();
